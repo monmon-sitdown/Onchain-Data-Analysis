@@ -38,17 +38,17 @@ nft_traders_summary as (
 
 total_traders_count as (
     select count(*) as total_holders_count,
-        max(hold_item_count) as max_hold_item_count
+        max(hold_item_count) as max_hold_item_count ---max item holder
     from nft_traders
 ),
 
 total_summary as (
     select 
         0 as total_nft_count,
-        count(*) as transaction_count,
+        count(*) as transaction_count, ---total nft traded
         sum(number_of_items) as number_of_items_traded,
-        sum(amount_raw) / 1e18 as eth_amount_traded,
-        sum(amount_usd) as usd_amount_traded
+        sum(amount_raw) / 1e18 as eth_amount_traded, ---total eth traded
+        sum(amount_usd) as usd_amount_traded ---total usd traded
     from opensea.trades
     where nft_contract_address = 0xed5af388653567af2f388e6224dc7c4b3241c544
     and block_time > date('2022-01-01')
