@@ -18,7 +18,7 @@ DEX（分散型取引所）トレードのデータ分析は、仮想通貨市�
 
 DEXトレードのデータ分析は、市場の理解と取引戦略の最適化、リスク管理、新たな価値の発見に役立ちます。データ分析を通じて市場をより深く理解し、成功する取引や投資を行うための重要な手段となります。本分析には、以下の4つの部分のデータが表示されます：2021年以来DeFiの総取引高、総取引量、総ユーザー数。さらに、日次および月次の取引データの統計グラフも含まれています。
 
-![图片alt](/1_DeFi/img/fig1.png "Fig.1 The DEX overview of trade amount, trade count and trader count.")
+![Fig.1 The DEX overview of trade amount, trade count and trader count](/1_DeFi/img/fig1.png "Fig.1 The DEX overview of trade amount, trade count and trader count.")
 
 
 
