@@ -1,5 +1,6 @@
 # Simple Analysis for DeFi Dashboard(JPN)
 (The dashboard can be found in https://dune.com/syu24059/defi-analysis)
+(All data are obtained before Feb 7th, 2024)
 
 ## はじめに
   DeFiはDecentralized Financeの略称で、分散型金融を指します。DeFiは現在、ブロックチェーンの最も活発な分野の一つとされています。私たちがERC20トークンを別のトークンに交換する必要がある場合、DeFiアプリケーションを使用して交換を行うことができます。DEXはDecentralized Exchangeの略称で、分散型取引所を指します。Uniswap、PancakeSwap、CurveFiなどが人気のあるDEX取引所です。このダッシュボードでは、イーサリアムブロックチェーン上のデータを使用して、DeFiプロジェクトを分析します.
