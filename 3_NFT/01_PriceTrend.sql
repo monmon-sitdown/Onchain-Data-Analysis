@@ -7,6 +7,4 @@ with data_bin as (
         and currency_symbol in ('ETH', 'WETH')
 )
 
---- Filter the prices too high or too low by OutlierFloor and OutlierCeil
----select * from data_bin where bucket between '{{OutlierFloor}}' and '{{OutlierCeil}}'
 select * from data_bin

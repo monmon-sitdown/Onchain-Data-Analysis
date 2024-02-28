@@ -9,7 +9,7 @@ with contract_summary as (
 )
 
 select contract_address,
-    '<a href=https://polygonscan.com/address/' || cast(contract_address as varchar) || ' target=_blank>PolygonScan</a>' as link,
+   --- '<a href=https://polygonscan.com/address/' || cast(contract_address as varchar) || ' target=_blank>PolygonScan</a>' as link,
     transaction_count
 from contract_summary
 order by transaction_count desc
